@@ -38,7 +38,7 @@
 				<input type="checkbox" class="form-check-input" name="using2FA" [(ngModel)]="form.using2FA" #using2FA="ngModel" /><label class="form-check-label" for="using2FA">Use
 					Two Step Verification</label>
 			</div>
-			<div class="form-group">
+			<div class="form-group d-grid mt-2">
 				<button class="btn btn-primary btn-block">Sign Up</button>
 			</div>
 			<div class="alert alert-warning" *ngIf="f.submitted && isSignUpFailed">
